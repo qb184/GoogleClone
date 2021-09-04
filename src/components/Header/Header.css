@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.header a {
+  text-decoration: none;
+  margin: 10px;
+}
+.header a:hover {
+  text-decoration: underline;
+}

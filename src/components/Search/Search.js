@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 const Search = () => {
     return (
-        <div>
+        <div className="search">
             <label>
               <InputGroup hasValidation className = "search-bar" size="lg" >
                     <SearchIcon className="search-icon"></SearchIcon>

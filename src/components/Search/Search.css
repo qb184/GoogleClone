@@ -29,7 +29,7 @@
 }
 
 .btn {
-  padding: 16px;
+  padding: 10px 15px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   font-size: 14px;
@@ -41,4 +41,12 @@
 .btn:hover {
   border-color: rgb(211, 211, 211);
   box-shadow: 0 0.5px 1px grey;
+}
+.search-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search {
+  margin-top: 30px;
 }

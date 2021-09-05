@@ -1,10 +1,12 @@
-import { Link } from 'react-router-dom'
 import './Header.css';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-  } from "react-router-dom"
+    Link
+  } from "react-router-dom";
+import AppsIcon from '@material-ui/icons/Apps';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const Header = () => {
     return (
@@ -25,8 +27,8 @@ const Header = () => {
                 <div className='header-right'>
                     <Link to="/gmail">Gmail</Link>
                     <Link to="/images">Images</Link>
-                    <Link to="/apps">Apps</Link>
-                    <Link to="/account">Account</Link>
+                    <Link to="/apps"><AppsIcon/></Link>
+                    <Link to="/account"><AccountCircleIcon/></Link>
                 </div>
             </Router>
         </div>

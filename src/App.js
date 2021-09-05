@@ -1,19 +1,15 @@
 import './App.css';
 import Header from './components/Header/Header';
-import { Link } from 'react-router-dom'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom"
+
 import {ReactComponent as Logo} from './Google_logo.svg';
+import Search from './components/Search/Search';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
       <Logo/>
-      
+      <Search/>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.logo {
+  width: 70px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.header-left {
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.display-options {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+.display-options a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+.display-options a:hover {
+  text-decoration: underline;
+}

@@ -1,9 +1,8 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import {ReactComponent as Logo} from './Google_logo.svg';
+import {ReactComponent as Logo} from './images/Google_logo.svg';
 import Search from './components/Search/Search';
-import { findByLabelText } from '@testing-library/react';
 
 function Home() {
   return (

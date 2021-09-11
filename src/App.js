@@ -1,13 +1,28 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import {ReactComponent as Logo} from './Google_logo.svg';
-import Search from './components/Search/Search';
+import Home from './Home';
+import SearchPage from './SearchPage';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-
+        <Router> 
+          <Switch>
+            <Route path="/search">
+              <SearchPage/>
+            </Route>
+            <Route path="/">
+              <Home/>
+            </Route>
+            
+          </Switch>
+       </Router> 
     </div>
   );
 }

@@ -50,3 +50,7 @@
 .search {
   margin-top: 30px;
 }
+
+.hidden-btns {
+  display: none;
+}

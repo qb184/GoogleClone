@@ -12,7 +12,7 @@ const Header = () => {
     return (
         
         <div className="header">
-            <Router>
+            <Router> 
                 <Switch>
                 <Route path="/about"></Route>
                 <Route path="/store"></Route>

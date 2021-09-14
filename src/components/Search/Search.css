@@ -11,7 +11,7 @@
 .search-icon {
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 12px;
 }
 .input {
   border: none;
@@ -25,7 +25,7 @@
 .mic {
   display: flex;
   flex: 1 0 auto;
-  margin: 10px;
+  margin: 12px;
 }
 
 .btn {

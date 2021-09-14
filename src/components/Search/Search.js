@@ -20,7 +20,9 @@ function Search(props) {
             type: actionType.SET_SEARCH_INPUT,
             term: searchInput
         })
-        history.push("/search");
+        if (searchInput) {  
+            history.push("/search");
+        }
     }
 
     return (

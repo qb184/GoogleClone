@@ -6,7 +6,7 @@ import Search from './components/Search/Search';
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="root">
       <Header></Header>
       <div style={{display:'flex', justifyContent:"center", marginTop:'80px'}}><Logo/></div>
       <Search/>

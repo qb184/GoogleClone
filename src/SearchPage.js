@@ -19,8 +19,8 @@ import Response from './response';
 
 function SearchPage() {
     const [{term}, dispatch] = useStateValue();
-    // const {data} = useGoogleSearch(term);
-    const data = Response;
+    const {data} = useGoogleSearch(term);
+    // const data = Response;
     let listItems;
     let info;
     let item;

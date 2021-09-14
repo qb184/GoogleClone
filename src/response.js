@@ -1,522 +1,544 @@
 export default {
-    "kind": "customsearch#search",
-    "url": {
-      "type": "application/json",
-      "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
-    },
-    "queries": {
-      "request": [
-        {
-          "title": "Google Custom Search - tesla",
-          "totalResults": "325000000",
-          "searchTerms": "tesla",
-          "count": 10,
-          "startIndex": 1,
-          "inputEncoding": "utf8",
-          "outputEncoding": "utf8",
-          "safe": "off",
-          "cx": "73b9138b52ca9563f"
-        }
-      ],
-      "nextPage": [
-        {
-          "title": "Google Custom Search - tesla",
-          "totalResults": "325000000",
-          "searchTerms": "tesla",
-          "count": 10,
-          "startIndex": 11,
-          "inputEncoding": "utf8",
-          "outputEncoding": "utf8",
-          "safe": "off",
-          "cx": "73b9138b52ca9563f"
-        }
-      ]
-    },
-    "context": {
-      "title": "Google"
-    },
-    "searchInformation": {
-      "searchTime": 0.440923,
-      "formattedSearchTime": "0.44",
-      "totalResults": "325000000",
-      "formattedTotalResults": "325,000,000"
-    },
-    "items": [
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
       {
-        "kind": "customsearch#result",
-        "title": "Tesla: Electric Cars, Solar & Clean Energy",
-        "htmlTitle": "\u003cb\u003eTesla\u003c/b\u003e: Electric Cars, Solar &amp; Clean Energy",
-        "link": "https://www.tesla.com/",
-        "displayLink": "www.tesla.com",
-        "snippet": "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and ...",
-        "htmlSnippet": "\u003cb\u003eTesla\u003c/b\u003e is accelerating the world&#39;s transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and&nbsp;...",
-        "cacheId": "rHYp-0etoiEJ",
-        "formattedUrl": "https://www.tesla.com/",
-        "htmlFormattedUrl": "https://www.\u003cb\u003etesla\u003c/b\u003e.com/",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-CUHXz6WD-9Zikk3qP3-R7q9bOeyYFJc5Uie4u7LoIjRObL3YQM8xrOQ",
-              "width": "311",
-              "height": "162"
-            }
-          ],
-          "metatags": [
-            {
-              "msapplication-tilecolor": "#cc0000",
-              "og:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
-              "og:type": "website",
-              "twitter:card": "summary_large_image",
-              "twitter:title": "Electric Cars, Solar & Clean Energy | Tesla",
-              "theme-color": "#000000",
-              "og:site_name": "Tesla",
-              "og:image:url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
-              "handheldfriendly": "true",
-              "twitter:url": "https://www.tesla.com/",
-              "og:title": "Electric Cars, Solar & Clean Energy | Tesla",
-              "msapplication-tileimage": "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
-              "og:description": "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
-              "twitter:creator": "@tesla",
-              "og:image:secure_url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
-              "twitter:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social",
-              "twitter:site": "@tesla",
-              "apple-mobile-web-app-status-bar-style": "black",
-              "viewport": "width=device-width, initial-scale=1.0",
-              "twitter:description": "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
-              "apple-mobile-web-app-capable": "yes",
-              "mobileoptimized": "width",
-              "og:url": "https://www.tesla.com/"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://tesla-cdn.thron.com/delivery/public/image/tesla/195458a0-ff67-488c-b972-14d23d2c42fb/bvlatuR/std/1200x630/ms-homepage-social"
-            }
-          ]
-        }
-      },
+        "title": "Google Custom Search - ohio state",
+        "totalResults": "785000000",
+        "searchTerms": "ohio state",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "73b9138b52ca9563f"
+      }
+    ],
+    "nextPage": [
       {
-        "kind": "customsearch#result",
-        "title": "Tesla - Keep it Real Tour",
-        "htmlTitle": "\u003cb\u003eTesla\u003c/b\u003e - Keep it Real Tour",
-        "link": "https://teslatheband.com/",
-        "displayLink": "teslatheband.com",
-        "snippet": "Tesla - Cold Blue Steel. Brand new single “COLD BLUE STEEL”. Download + Stream Everywhere. Stream & Download Now · Streaming Platforms ...",
-        "htmlSnippet": "\u003cb\u003eTesla\u003c/b\u003e - Cold Blue Steel. Brand new single “COLD BLUE STEEL”. Download + Stream Everywhere. Stream &amp; Download Now &middot; Streaming Platforms&nbsp;...",
-        "cacheId": "Pw3S9NsLmboJ",
-        "formattedUrl": "https://teslatheband.com/",
-        "htmlFormattedUrl": "https://\u003cb\u003etesla\u003c/b\u003etheband.com/",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStm-97l3wzzDPAc1Y6zQXW1iv8xHyO5X5AzVrxpqVcfb9r0tNHDpIkvsc",
-              "width": "300",
-              "height": "168"
-            }
-          ],
-          "metatags": [
-            {
-              "viewport": "width=device-width, initial-scale=1"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://i.ytimg.com/vi/lxOHFCKgauk/maxresdefault.jpg"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Model 3 | Tesla",
-        "htmlTitle": "Model 3 | \u003cb\u003eTesla\u003c/b\u003e",
-        "link": "https://www.tesla.com/model3",
-        "displayLink": "www.tesla.com",
-        "snippet": "Model 3 is designed for electric-powered performance, with dual motor AWD, quick acceleration, long range and fast charging.",
-        "htmlSnippet": "Model 3 is designed for electric-powered performance, with dual motor AWD, quick acceleration, long range and fast charging.",
-        "cacheId": "N4-C0Xr0P-gJ",
-        "formattedUrl": "https://www.tesla.com/model3",
-        "htmlFormattedUrl": "https://www.\u003cb\u003etesla\u003c/b\u003e.com/model3",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUJfAMM2tg3jkc-O42gXv0qCKhk944QQTVtP42EFcQz0Zl4X4IrHLSRlAW",
-              "width": "311",
-              "height": "162"
-            }
-          ],
-          "metatags": [
-            {
-              "msapplication-tilecolor": "#cc0000",
-              "og:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
-              "og:image:alt": "Model 3",
-              "twitter:card": "summary",
-              "twitter:title": "Model 3 | Tesla",
-              "theme-color": "#000000",
-              "og:site_name": "Tesla",
-              "og:image:url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
-              "handheldfriendly": "true",
-              "twitter:url": "https://www.tesla.com/model3",
-              "og:title": "Model 3 | Tesla",
-              "msapplication-tileimage": "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
-              "og:description": "Model 3 is designed for electric-powered performance, with dual motor AWD, quick acceleration, long range and fast charging.",
-              "twitter:creator": "@Tesla",
-              "og:image:secure_url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
-              "twitter:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
-              "twitter:image:alt": "Model 3",
-              "apple-mobile-web-app-status-bar-style": "black",
-              "viewport": "width=device-width, initial-scale=1.0",
-              "twitter:description": "Model 3 is designed for electric-powered performance, with dual motor AWD, quick acceleration, long range and fast charging.",
-              "apple-mobile-web-app-capable": "yes",
-              "mobileoptimized": "width",
-              "og:url": "https://www.tesla.com/model3"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Tesla Investor Relations",
-        "htmlTitle": "\u003cb\u003eTesla\u003c/b\u003e Investor Relations",
-        "link": "https://ir.tesla.com/",
-        "displayLink": "ir.tesla.com",
-        "snippet": "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely ...",
-        "htmlSnippet": "\u003cb\u003eTesla&#39;s\u003c/b\u003e mission is to accelerate the world&#39;s transition to sustainable energy. Today, \u003cb\u003eTesla\u003c/b\u003e builds not only all-electric vehicles but also infinitely&nbsp;...",
-        "cacheId": "DiUql1nUr6gJ",
-        "formattedUrl": "https://ir.tesla.com/",
-        "htmlFormattedUrl": "https://ir.\u003cb\u003etesla\u003c/b\u003e.com/",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHsX6OvBdeNbFQyiCZAh0HYbbb8K9o6e4DNgBEbJpMTErPMpC2ndkruA",
-              "width": "433",
-              "height": "116"
-            }
-          ],
-          "metatags": [
-            {
-              "og:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
-              "theme-color": "#000000",
-              "twitter:card": "summary_large_image",
-              "twitter:title": "Tesla Investor Relations",
-              "og:site_name": "Tesla Investor Relations",
-              "og:image:url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
-              "handheldfriendly": "true",
-              "og:title": "Tesla Investor Relations",
-              "og:description": "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
-              "og:image:secure_url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
-              "twitter:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
-              "viewport": "width=device-width, initial-scale=1.0",
-              "twitter:description": "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
-              "mobileoptimized": "width"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://tesla-cdn.thron.com/delivery/public/image/tesla/home_hero/S1dbei4/std/0x0/home_hero"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Model S | Tesla",
-        "htmlTitle": "Model S | \u003cb\u003eTesla\u003c/b\u003e",
-        "link": "https://www.tesla.com/models",
-        "displayLink": "www.tesla.com",
-        "snippet": "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
-        "htmlSnippet": "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
-        "cacheId": "Ei43u66-EP0J",
-        "formattedUrl": "https://www.tesla.com/models",
-        "htmlFormattedUrl": "https://www.\u003cb\u003etesla\u003c/b\u003e.com/models",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAXhDfXFYZXJz4pF8qq4zPPWZGhPDGZlzTsKd93BNIxAWfVnrmzibYTI2S",
-              "width": "311",
-              "height": "162"
-            }
-          ],
-          "metatags": [
-            {
-              "msapplication-tilecolor": "#cc0000",
-              "og:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
-              "twitter:card": "summary_large_image",
-              "twitter:title": "Model S | Tesla",
-              "theme-color": "#000000",
-              "og:site_name": "Tesla",
-              "og:image:url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
-              "handheldfriendly": "true",
-              "twitter:url": "https://www.tesla.com/models",
-              "og:title": "Model S",
-              "msapplication-tileimage": "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
-              "og:description": "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
-              "twitter:creator": "@tesla",
-              "og:image:secure_url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
-              "twitter:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
-              "twitter:site": "@tesla",
-              "apple-mobile-web-app-status-bar-style": "black",
-              "viewport": "width=device-width, initial-scale=1.0",
-              "twitter:description": "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
-              "apple-mobile-web-app-capable": "yes",
-              "mobileoptimized": "width",
-              "og:url": "https://www.tesla.com/models"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Nikola Tesla - Wikipedia",
-        "htmlTitle": "Nikola \u003cb\u003eTesla\u003c/b\u003e - Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Nikola_Tesla",
-        "displayLink": "en.wikipedia.org",
-        "snippet": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the ...",
-        "htmlSnippet": "Nikola \u003cb\u003eTesla\u003c/b\u003e was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the&nbsp;...",
-        "cacheId": "ffC4b7aiemYJ",
-        "formattedUrl": "https://en.wikipedia.org/wiki/Nikola_Tesla",
-        "htmlFormattedUrl": "https://en.wikipedia.org/wiki/Nikola_\u003cb\u003eTesla\u003c/b\u003e",
-        "pagemap": {
-          "hcard": [
-            {
-              "note": "Projects Alternating current high-voltage, high-frequency power experiments",
-              "bday": "1856-07-10",
-              "fn": "Nikola Tesla",
-              "nickname": "Никола Тесла",
-              "label": "Nikola Tesla Museum Belgrade, Serbia",
-              "category": "Austrian (1856–1891) American (1891–1943)"
-            }
-          ],
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWCFn1zDwTQIBRF9VDd9IfsyYKVtv2UGWDYFby88mPDxjm7AZ3P5uZLbk",
-              "width": "196",
-              "height": "257"
-            }
-          ],
-          "metatags": [
-            {
-              "referrer": "origin",
-              "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/1200px-N.Tesla.JPG",
-              "og:type": "website",
-              "og:title": "Nikola Tesla - Wikipedia",
-              "format-detection": "telephone=no"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/1200px-N.Tesla.JPG"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Model X | Tesla",
-        "htmlTitle": "Model X | \u003cb\u003eTesla\u003c/b\u003e",
-        "link": "https://www.tesla.com/modelx",
-        "displayLink": "www.tesla.com",
-        "snippet": "By combining up to 360 miles of estimated range with Tesla fast charging technology, you'll spend less time charging and even more time on the road.",
-        "htmlSnippet": "By combining up to 360 miles of estimated range with \u003cb\u003eTesla\u003c/b\u003e fast charging technology, you&#39;ll spend less time charging and even more time on the road.",
-        "cacheId": "nAmbVd5MEZAJ",
-        "formattedUrl": "https://www.tesla.com/modelx",
-        "htmlFormattedUrl": "https://www.\u003cb\u003etesla\u003c/b\u003e.com/modelx",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMoc6eJGtQbhPsr_koKTearTC3WiTfHURdHzi7f5vTp35sAOoIWYfXxaQ",
-              "width": "311",
-              "height": "162"
-            }
-          ],
-          "metatags": [
-            {
-              "msapplication-tilecolor": "#cc0000",
-              "og:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social",
-              "twitter:card": "summary_large_image",
-              "twitter:title": "Model X | Tesla",
-              "theme-color": "#000000",
-              "og:site_name": "Tesla",
-              "og:image:url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social",
-              "handheldfriendly": "true",
-              "twitter:url": "https://www.tesla.com/modelx",
-              "og:title": "Model X",
-              "msapplication-tileimage": "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
-              "og:description": "Model X is built for utility and performance, with standard AWD, best in class storage and seating for up to seven.",
-              "twitter:creator": "@tesla",
-              "og:image:secure_url": "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social",
-              "twitter:image": "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social",
-              "twitter:site": "@tesla",
-              "apple-mobile-web-app-status-bar-style": "black",
-              "viewport": "width=device-width, initial-scale=1.0",
-              "twitter:description": "Model X is built for utility and performance, with standard AWD, best in class storage and seating for up to seven.",
-              "apple-mobile-web-app-capable": "yes",
-              "mobileoptimized": "width",
-              "og:url": "https://www.tesla.com/modelx"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
-        "htmlTitle": "\u003cb\u003eTesla\u003c/b\u003e, Inc. (TSLA) Stock Price, News, Quote &amp; History - Yahoo Finance",
-        "link": "https://finance.yahoo.com/quote/TSLA/",
-        "displayLink": "finance.yahoo.com",
-        "snippet": "Find the latest Tesla, Inc. (TSLA) stock quote, history, news and other vital information to help you with your stock trading and investing.",
-        "htmlSnippet": "Find the latest \u003cb\u003eTesla\u003c/b\u003e, Inc. (TSLA) stock quote, history, news and other vital information to help you with your stock trading and investing.",
-        "cacheId": "Y0MVeAHUpw8J",
-        "formattedUrl": "https://finance.yahoo.com/quote/TSLA/",
-        "htmlFormattedUrl": "https://finance.yahoo.com/quote/TSLA/",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoCgoe2XIWK1wvQQnCXpvwGieiET3EZ89hNdiU356o8MB7kfJHy8vE4EBf",
-              "width": "225",
-              "height": "225"
-            }
-          ],
-          "metatags": [
-            {
-              "og:image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-              "apple-itunes-app": "app-id=328412701, app-clip-bundle-id=com.yahoo.finance.clip-qsp, affiliate-data=ct=us.fin.mbl.smart-banner&pt=9029, app-argument=https://finance.yahoo.com/quote/TSLA",
-              "theme-color": "#400090",
-              "twitter:title": "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
-              "al:ios:app_name": "Yahoo Finance",
-              "msvalidate.01": "A9862C0E6E1BE95BCE0BF3D0298FD58B",
-              "og:title": "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
-              "al:android:package": "com.yahoo.mobile.client.android.finance",
-              "fb:pages": "458584288257241",
-              "og:description": "Find the latest Tesla, Inc. (TSLA) stock quote, history, news and other vital information to help you with your stock trading and investing.",
-              "twitter:dnt": "on",
-              "al:ios:app_store_id": "328412701",
-              "al:android:url": "intent://quote/TSLA/#Intent;scheme=yfinance;action=android.intent.action.VIEW;package=com.yahoo.mobile.client.android.finance;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.yahoo.mobile.client.android.finance;end",
-              "fb:app_id": "458584288257241",
-              "oath:guce:consent-host": "guce.yahoo.com",
-              "twitter:site": "@YahooFinance",
-              "viewport": "width=device-width, initial-scale=1",
-              "twitter:description": "Find the latest Tesla, Inc. (TSLA) stock quote, history, news and other vital information to help you with your stock trading and investing.",
-              "al:android:app_name": "Yahoo Finance"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Solar Roof | Tesla",
-        "htmlTitle": "Solar Roof | \u003cb\u003eTesla\u003c/b\u003e",
-        "link": "https://www.tesla.com/solarroof",
-        "displayLink": "www.tesla.com",
-        "snippet": "Solar Roof transforms your existing roof and brings it to life with beautiful solar tiles that can power your home for decades with the energy you produce.",
-        "htmlSnippet": "Solar Roof transforms your existing roof and brings it to life with beautiful solar tiles that can power your home for decades with the energy you produce.",
-        "cacheId": "hczIMtX0mFwJ",
-        "formattedUrl": "https://www.tesla.com/solarroof",
-        "htmlFormattedUrl": "https://www.\u003cb\u003etesla\u003c/b\u003e.com/solarroof",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lB8IjjMdqFojG8fpJSSsRAR0wAVy3BCmntVfAN-ZFtbiu3QoX2jd7wo",
-              "width": "284",
-              "height": "177"
-            }
-          ],
-          "metatags": [
-            {
-              "msapplication-tilecolor": "#cc0000",
-              "og:image": "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
-              "twitter:card": "summary_large_image",
-              "twitter:title": "Solar Roof | Tesla",
-              "theme-color": "#000000",
-              "og:image:url": "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
-              "handheldfriendly": "true",
-              "twitter:url": "https://www.tesla.com/solarroof",
-              "og:title": "Solar Roof | Tesla",
-              "msapplication-tileimage": "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
-              "og:description": "Solar Roof transforms your existing roof and brings it to life with beautiful solar tiles that can power your home for decades with the energy you produce.",
-              "twitter:creator": "@tesla",
-              "og:image:secure_url": "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
-              "twitter:image": "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg",
-              "twitter:image:alt": "Tesla Solar Roof",
-              "twitter:site": "@tesla",
-              "apple-mobile-web-app-status-bar-style": "black",
-              "viewport": "width=device-width, initial-scale=1.0",
-              "twitter:description": "Solar Roof transforms your existing roof and brings it to life with beautiful solar tiles that can power your home for decades with the energy you produce.",
-              "apple-mobile-web-app-capable": "yes",
-              "mobileoptimized": "width",
-              "og:url": "https://www.tesla.com/solarroof"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg"
-            }
-          ]
-        }
-      },
-      {
-        "kind": "customsearch#result",
-        "title": "Tesla (@Tesla) | Twitter",
-        "htmlTitle": "\u003cb\u003eTesla\u003c/b\u003e (@\u003cb\u003eTesla\u003c/b\u003e) | Twitter",
-        "link": "https://twitter.com/tesla",
-        "displayLink": "twitter.com",
-        "snippet": "The latest Tweets from Tesla (@Tesla). electric cars, giant batteries and solar.",
-        "htmlSnippet": "The latest Tweets from \u003cb\u003eTesla\u003c/b\u003e (@\u003cb\u003eTesla\u003c/b\u003e). electric cars, giant batteries and solar.",
-        "cacheId": "EA6z_IGqBJUJ",
-        "formattedUrl": "https://twitter.com/tesla",
-        "htmlFormattedUrl": "https://twitter.com/\u003cb\u003etesla\u003c/b\u003e",
-        "pagemap": {
-          "cse_thumbnail": [
-            {
-              "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYo1-BDaWz7OWvo4rC3DYSk0BMIDlrgsunbJWC8C-YWW9FHubtYtyC5PXw",
-              "width": "225",
-              "height": "225"
-            }
-          ],
-          "xfn": [
-            {}
-          ],
-          "metatags": [
-            {
-              "msapplication-tilecolor": "#00aced",
-              "al:android:url": "twitter://user?screen_name=Tesla",
-              "al:ios:app_name": "Twitter",
-              "swift-page-section": "profile",
-              "al:android:package": "com.twitter.android",
-              "swift-page-name": "profile",
-              "msapplication-tileimage": "//abs.twimg.com/favicons/win8-tile-144.png",
-              "al:ios:url": "twitter://user?screen_name=Tesla",
-              "al:ios:app_store_id": "333903271",
-              "al:android:app_name": "Twitter",
-              "facebook-domain-verification": "moho2ug7zs57jijiywrewd8wb5a08h"
-            }
-          ],
-          "cse_image": [
-            {
-              "src": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png"
-            }
-          ]
-        }
+        "title": "Google Custom Search - ohio state",
+        "totalResults": "785000000",
+        "searchTerms": "ohio state",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "73b9138b52ca9563f"
       }
     ]
-  }
-  
+  },
+  "context": {
+    "title": "Google"
+  },
+  "searchInformation": {
+    "searchTime": 0.318327,
+    "formattedSearchTime": "0.32",
+    "totalResults": "785000000",
+    "formattedTotalResults": "785,000,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "The Ohio State University",
+      "htmlTitle": "The \u003cb\u003eOhio State\u003c/b\u003e University",
+      "link": "https://www.osu.edu/",
+      "displayLink": "www.osu.edu",
+      "snippet": "Discover Ohio State, the highest ranked public university in Ohio, is home to the Wexner Medical Center and world-class graduate and undergraduate programs.",
+      "htmlSnippet": "Discover \u003cb\u003eOhio State\u003c/b\u003e, the highest ranked public university in Ohio, is home to the Wexner Medical Center and world-class graduate and undergraduate programs.",
+      "cacheId": "PGX8iM1Z5yYJ",
+      "formattedUrl": "https://www.osu.edu/",
+      "htmlFormattedUrl": "https://www.osu.edu/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTysoMxfW1Rb_XE4IP4fQCEfpPZMFMiCxSj8viFtKMixg47pi94YwSxdg",
+            "width": "150",
+            "height": "70"
+          }
+        ],
+        "metatags": [
+          {
+            "owner": "University Marketing",
+            "og:image": "https://www.osu.edu/",
+            "copyright": "The Ohio State University",
+            "og:type": "article",
+            "og:image:width": "764",
+            "twitter:title": "The Ohio State University",
+            "twitter:card": "summary",
+            "og:site_name": "The Ohio State University",
+            "author": "© 2021 The Ohio State University",
+            "og:title": "The Ohio State University",
+            "og:image:height": "399",
+            "og:image:type": "image/jpeg",
+            "og:description": "Discover Ohio State, the highest ranked public university in Ohio, is home to the Wexner Medical Center and world-class graduate and undergraduate programs.",
+            "og:image:secure_url": "https://www.osu.edu/assets/web/logo-web/TheOhioStateUniversity-Stacked.jpg",
+            "facebook-domain-verification": "a3gv4ghgdf7j19w511i3xxjjo0ypzc",
+            "twitter:site": "@OhioState",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Discover Ohio State, the highest ranked public university in Ohio, is home to the Wexner Medical Center and world-class graduate and undergraduate programs.",
+            "revised": "Fri Aug 27, 2021",
+            "og:url": "https://www.osu.edu/",
+            "twitter:account_id": "4503599627870542"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.osu.edu/assets/images/homepage/Hammonds_1440x670.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ohio State Buckeyes | Ohio State University Athletics",
+      "htmlTitle": "\u003cb\u003eOhio State\u003c/b\u003e Buckeyes | \u003cb\u003eOhio State\u003c/b\u003e University Athletics",
+      "link": "https://ohiostatebuckeyes.com/",
+      "displayLink": "ohiostatebuckeyes.com",
+      "snippet": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes sports on the web with highlights, scores, ...",
+      "htmlSnippet": "The Official Athletic Site of the \u003cb\u003eOhio State\u003c/b\u003e Buckeyes. The most comprehensive coverage of the Buckeyes sports on the web with highlights, scores,&nbsp;...",
+      "cacheId": "qQWg1lSmLnUJ",
+      "formattedUrl": "https://ohiostatebuckeyes.com/",
+      "htmlFormattedUrl": "https://\u003cb\u003eohiostate\u003c/b\u003ebuckeyes.com/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEEKMk6TNjcPayBEhKGxCXQNW_U6p3U7jfEAO4XELB3dS8O_UGywJ_ysW",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "website": [
+          {
+            "name": "Ohio State Buckeyes",
+            "url": "https://ohiostatebuckeyes.com/"
+          }
+        ],
+        "entrypoint": [
+          {
+            "urltemplate": "https://ohiostatebuckeyes.com/?s={search_term}"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Ohio State Buckeyes",
+            "description": "Official Athletic Site",
+            "logo": "https://ohiostatebuckeyes.com/wp-content/uploads/2015/10/amt-4e63cebdd22ed5ca575510c3b9a6031d1a4cdaf0-8952474.jpeg",
+            "url": "https://ohiostatebuckeyes.com/",
+            "sameas": "https://twitter.com/OhioStAthletics"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            "og:image": "https://ohiostatebuckeyes.com/wp-content/uploads/2015/10/amt-4e63cebdd22ed5ca575510c3b9a6031d1a4cdaf0-8952474.jpeg",
+            "theme-color": "#ce0f3d",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Ohio State Buckeyes | Ohio State University Athletics",
+            "og:site_name": "Ohio State Buckeyes",
+            "og:title": "Ohio State Buckeyes | Ohio State University Athletics",
+            "og:description": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes sports on the web with highlights, scores, game summaries, and rosters. Powered by WMT Digital.",
+            "twitter:creator": "@OhioStAthletics",
+            "og:image:secure_url": "https://ohiostatebuckeyes.com/wp-content/uploads/2015/10/amt-4e63cebdd22ed5ca575510c3b9a6031d1a4cdaf0-8952474.jpeg",
+            "twitter:image": "https://ohiostatebuckeyes.com/wp-content/uploads/2015/10/amt-4e63cebdd22ed5ca575510c3b9a6031d1a4cdaf0-8952474.jpeg",
+            "facebook-domain-verification": "tofz3cfvz1fgupp2njqcmp0l9jvoyt",
+            "twitter:site": "https://ohiostatebuckeyes.com/",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+            "twitter:description": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes sports on the web with highlights, scores, game summaries, and rosters. Powered by WMT Digital.",
+            "og:locale": "en_US",
+            "og:url": "https://ohiostatebuckeyes.com/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ohiostatebuckeyes.com/wp-content/uploads/2015/10/amt-4e63cebdd22ed5ca575510c3b9a6031d1a4cdaf0-8952474.jpeg"
+          }
+        ],
+        "propertyvaluespecification": [
+          {
+            "valuerequired": "True",
+            "valuename": "search_term"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ohio.gov | Official Website of the State of Ohio | Ohio.gov",
+      "htmlTitle": "\u003cb\u003eOhio\u003c/b\u003e.gov | Official Website of the \u003cb\u003eState\u003c/b\u003e of \u003cb\u003eOhio\u003c/b\u003e | \u003cb\u003eOhio\u003c/b\u003e.gov",
+      "link": "https://ohio.gov/",
+      "displayLink": "ohio.gov",
+      "snippet": "Ohio.gov is the official website for the State of Ohio. Find the government information and services you need to live, work, travel, and do business in the ...",
+      "htmlSnippet": "\u003cb\u003eOhio\u003c/b\u003e.gov is the official website for the \u003cb\u003eState\u003c/b\u003e of \u003cb\u003eOhio\u003c/b\u003e. Find the government information and services you need to live, work, travel, and do business in the&nbsp;...",
+      "cacheId": "VVN0BfxW_doJ",
+      "formattedUrl": "https://ohio.gov/",
+      "htmlFormattedUrl": "https://\u003cb\u003eohio\u003c/b\u003e.gov/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTkpeObtgL-2aX4JcemiZ82f94ythFwvpEI3k8WxTpuoyByR3UEu5EoD5A",
+            "width": "324",
+            "height": "155"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "initial-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ohio.gov/wps/wcm/connect/gov/0bb44a16-0f69-4a2f-aa2e-5b6fe805b783/business+help.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_M1HGGIK0N0JO00QO9DDDDM3000-0bb44a16-0f69-4a2f-aa2e-5b6fe805b783-nrOihVL"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Football – Ohio State Buckeyes",
+      "htmlTitle": "Football – \u003cb\u003eOhio State\u003c/b\u003e Buckeyes",
+      "link": "https://ohiostatebuckeyes.com/sports/m-footbl/",
+      "displayLink": "ohiostatebuckeyes.com",
+      "snippet": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores, ...",
+      "htmlSnippet": "The Official Athletic Site of the \u003cb\u003eOhio State\u003c/b\u003e Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores,&nbsp;...",
+      "cacheId": "Vtfr9_AyBDcJ",
+      "formattedUrl": "https://ohiostatebuckeyes.com/sports/m-footbl/",
+      "htmlFormattedUrl": "https://\u003cb\u003eohiostate\u003c/b\u003ebuckeyes.com/sports/m-footbl/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1KJsIEbxslY2Qa-E0qSTCHvE0NrQJUKzTgHDR9rVjgnwzGnUZ-6BBf2Jo",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            "og:image": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg",
+            "theme-color": "#ce0f3d",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Football",
+            "og:site_name": "Ohio State Buckeyes",
+            "og:title": "Football",
+            "og:description": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores, game summaries, and rosters. Powered by WMT Digital.",
+            "twitter:creator": "@OhioStAthletics",
+            "og:image:secure_url": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg",
+            "twitter:image": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg",
+            "facebook-domain-verification": "tofz3cfvz1fgupp2njqcmp0l9jvoyt",
+            "twitter:site": "@OhioStAthletics",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+            "twitter:description": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores, game summaries, and rosters. Powered by WMT Digital.",
+            "og:locale": "en_US",
+            "og:url": "https://ohiostatebuckeyes.com/sports/m-footbl/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ohio State Buckeyes College Football - Ohio State News, Scores ...",
+      "htmlTitle": "\u003cb\u003eOhio State\u003c/b\u003e Buckeyes College Football - \u003cb\u003eOhio State\u003c/b\u003e News, Scores ...",
+      "link": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes",
+      "displayLink": "www.espn.com",
+      "snippet": "Get the latest Ohio State Buckeyes news, scores, stats, standings, rumors, and more from ESPN.",
+      "htmlSnippet": "Get the latest \u003cb\u003eOhio State\u003c/b\u003e Buckeyes news, scores, stats, standings, rumors, and more from ESPN.",
+      "cacheId": "5KHHdGFsAgwJ",
+      "formattedUrl": "https://www.espn.com/college-football/team/_/id/.../ohio-state-buckeyes",
+      "htmlFormattedUrl": "https://www.espn.com/college-football/team/_/id/.../\u003cb\u003eohio\u003c/b\u003e-\u003cb\u003estate\u003c/b\u003e-buckeyes",
+      "pagemap": {
+        "thumbnail": [
+          {
+            "src": "https://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F194.png",
+            "width": "500",
+            "height": "500"
+          }
+        ],
+        "document": [
+          {
+            "title": "Ohio State Buckeyes College Football - Ohio State News, Scores, Stats, Rumors & More"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F194.png",
+            "twitter:app:id:googleplay": "com.espn.score_center",
+            "og:image:width": "500",
+            "twitter:card": "summary",
+            "og:site_name": "ESPN.com",
+            "twitter:url": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes",
+            "twitter:app:name:googleplay": "ESPN",
+            "medium": "article",
+            "twitter:app:id:iphone": "317469184",
+            "title": "Ohio State Buckeyes College Football - Ohio State News, Scores, Stats, Rumors & More - ESPN",
+            "og:description": "Get the latest Ohio State Buckeyes news, scores, stats, standings, rumors, and more from ESPN.",
+            "twitter:site": "espn",
+            "news_keywords": "ohio state buckeyes, ncaaf, college football, scores, news, schedule, highlights",
+            "article:content_tier": "free",
+            "og:type": "article",
+            "twitter:title": "Ohio State Buckeyes College Football - Ohio State News, Scores, Stats, Rumors & More - ESPN",
+            "og:title": "Ohio State Buckeyes College Football - Ohio State News, Scores, Stats, Rumors & More - ESPN",
+            "og:image:height": "500",
+            "fb:pages": "104266592953439",
+            "referrer": "origin-when-cross-origin",
+            "fb:app_id": "116656161708917",
+            "viewport": "initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "twitter:description": "Get the latest Ohio State Buckeyes news, scores, stats, standings, rumors, and more from ESPN.",
+            "og:url": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes",
+            "twitter:app:name:iphone": "ESPN",
+            "article:opinion": "false"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fncaa%2F500%2F194.png",
+            "width": "225",
+            "type": "1",
+            "height": "225"
+          }
+        ],
+        "sitenavigationelement": [
+          {
+            "name": "NFL",
+            "url": "NFL"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Football Schedule – Ohio State Buckeyes",
+      "htmlTitle": "Football Schedule – \u003cb\u003eOhio State\u003c/b\u003e Buckeyes",
+      "link": "https://ohiostatebuckeyes.com/sports/m-footbl/schedule/",
+      "displayLink": "ohiostatebuckeyes.com",
+      "snippet": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores, ...",
+      "htmlSnippet": "The Official Athletic Site of the \u003cb\u003eOhio State\u003c/b\u003e Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores,&nbsp;...",
+      "cacheId": "8LWe6wWD_-MJ",
+      "formattedUrl": "https://ohiostatebuckeyes.com/sports/m-footbl/schedule/",
+      "htmlFormattedUrl": "https://\u003cb\u003eohiostate\u003c/b\u003ebuckeyes.com/sports/m-footbl/schedule/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1KJsIEbxslY2Qa-E0qSTCHvE0NrQJUKzTgHDR9rVjgnwzGnUZ-6BBf2Jo",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            "og:image": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg",
+            "theme-color": "#ce0f3d",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Football",
+            "og:site_name": "Ohio State Buckeyes",
+            "og:title": "Football",
+            "og:description": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores, game summaries, and rosters. Powered by WMT Digital.",
+            "twitter:creator": "@OhioStAthletics",
+            "og:image:secure_url": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg",
+            "twitter:image": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg",
+            "facebook-domain-verification": "tofz3cfvz1fgupp2njqcmp0l9jvoyt",
+            "twitter:site": "@OhioStAthletics",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+            "twitter:description": "The Official Athletic Site of the Ohio State Buckeyes. The most comprehensive coverage of the Buckeyes Football on the web with highlights, scores, game summaries, and rosters. Powered by WMT Digital.",
+            "og:locale": "en_US",
+            "og:url": "https://ohiostatebuckeyes.com/sports/m-footbl/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ohiostatebuckeyes.com/wp-content/uploads/2018/08/amt-f095ee959cc5f1efacbf9455940fcde863f871d8-FOT17-Army@OSUOnsite031-e1535668398947.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Ohio State University Wexner Medical Center",
+      "htmlTitle": "The \u003cb\u003eOhio State\u003c/b\u003e University Wexner Medical Center",
+      "link": "https://wexnermedical.osu.edu/",
+      "displayLink": "wexnermedical.osu.edu",
+      "snippet": "The Ohio State Wexner Medical Center is a leader in central Ohio for healthcare and medical research. With a variety of services and locations throughout ...",
+      "htmlSnippet": "The \u003cb\u003eOhio State\u003c/b\u003e Wexner Medical Center is a leader in central Ohio for healthcare and medical research. With a variety of services and locations throughout&nbsp;...",
+      "cacheId": "AV0ChyqlYS4J",
+      "formattedUrl": "https://wexnermedical.osu.edu/",
+      "htmlFormattedUrl": "https://wexnermedical.osu.edu/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjmb4_C_8HEiAuUU4YjeXHd0PamOasSHsRPu5PLXZsDO6XRIaMchx_fedC",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "website": [
+          {
+            "name": "The Ohio State University Wexner Medical Center",
+            "url": "https://wexnermedical.osu.edu/"
+          }
+        ],
+        "metatags": [
+          {
+            "vicurrentdatetime": "637671963044018008",
+            "web-speech-cognitive-services": "version=7.1.1",
+            "og:image": "https://wexnermedical.osu.edu/-/media/images/wexnermedical/global/modules/global/share-page-callout/1-sitewide/sharinglogo.jpg",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "The Ohio State University Wexner Medical Center",
+            "botframework-webchat:bundle:variant": "full",
+            "og:title": "The Ohio State University Wexner Medical Center",
+            "og:image:height": "675",
+            "og:description": "Here is some info from Ohio State – improving lives through excellence in research, education and patient care.",
+            "botframework-webchat:core:version": "4.14.1",
+            "twitter:image": "https://wexnermedical.osu.edu/-/media/images/wexnermedical/global/modules/global/share-page-callout/1-sitewide/sharinglogo.jpg",
+            "botframework-webchat:bundle:version": "4.14.1",
+            "botframework-directlinespeech:version": "4.14.1",
+            "botframework-webchat:ui:version": "4.14.1",
+            "twitter:site": "@OSUWexMed",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no",
+            "twitter:description": "Here is some info from Ohio State – improving lives through excellence in research, education and patient care.",
+            "react-film": "version=3.0.1",
+            "react-scroll-to-bottom:version": "4.1.1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://wexnermedical.osu.edu/-/media/images/wexnermedical/global/modules/global/share-page-callout/1-sitewide/sharinglogo.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ohio State Bar Association for Legal Professionals | OSBA",
+      "htmlTitle": "\u003cb\u003eOhio State\u003c/b\u003e Bar Association for Legal Professionals | OSBA",
+      "link": "https://www.ohiobar.org/",
+      "displayLink": "www.ohiobar.org",
+      "snippet": "What Is the Ohio State Bar Association? For more than 130 years, ... The OSBA does not license attorneys to practice law in Ohio. The Supreme Court of Ohio ...",
+      "htmlSnippet": "What Is the \u003cb\u003eOhio State\u003c/b\u003e Bar Association? For more than 130 years, ... The OSBA does not license attorneys to practice law in Ohio. The Supreme Court of Ohio&nbsp;...",
+      "cacheId": "8cTblKxFpTYJ",
+      "formattedUrl": "https://www.ohiobar.org/",
+      "htmlFormattedUrl": "https://www.\u003cb\u003eohio\u003c/b\u003ebar.org/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKMOx3dobYy9bRKoZlj3stgdZut5n_Hpqm5yCmnEgo0sp7yuGJcAUXToRw",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#b91d47",
+            "theme-color": "#ffffff",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.ohiobar.org/globalassets/home/blue-block.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Salon Schools Group: Home",
+      "htmlTitle": "Salon Schools Group: Home",
+      "link": "https://salonschools.ohiostate.edu/",
+      "displayLink": "salonschools.ohiostate.edu",
+      "snippet": "Ohio State School Of Cosmetology - Canal Winchester ... 6077 Gender Rd. Canal Winchester, OH 43110. Salon & Spa: (614) 834-2795 · View Location ...",
+      "htmlSnippet": "\u003cb\u003eOhio State\u003c/b\u003e School Of Cosmetology - Canal Winchester ... 6077 Gender Rd. Canal Winchester, OH 43110. Salon &amp; Spa: (614) 834-2795 &middot; View Location&nbsp;...",
+      "cacheId": "UK5IzZBwaUkJ",
+      "formattedUrl": "https://salonschools.ohiostate.edu/",
+      "htmlFormattedUrl": "https://salonschools.\u003cb\u003eohiostate\u003c/b\u003e.edu/",
+      "pagemap": {
+        "WebPage": [
+          {
+            "datePublished": "2021-01-12T17:22:35-05:00",
+            "name": "Home | Salon Schools Group",
+            "inLanguage": "en-US",
+            "dateModified": "2021-07-20T19:23:22-05:00",
+            "url": "https://salonschools.ohiostate.edu/"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "article",
+            "article:published_time": "2021-01-12T17:22:35+00:00",
+            "twitter:card": "summary",
+            "twitter:title": "Home | Salon Schools Group",
+            "og:site_name": "Salon Schools Group | Education Build For You",
+            "article:modified_time": "2021-07-20T19:23:22+00:00",
+            "twitter:domain": "salonschools.ohiostate.edu",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "Home | Salon Schools Group",
+            "og:locale": "en_US",
+            "og:url": "https://salonschools.ohiostate.edu/",
+            "msapplication-tileimage": "https://salonschools.ohiostate.edu/wp-content/uploads/2021/01/favicon.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Home | The Ohio State University at Lima",
+      "htmlTitle": "Home | The \u003cb\u003eOhio State\u003c/b\u003e University at Lima",
+      "link": "https://lima.osu.edu/",
+      "displayLink": "lima.osu.edu",
+      "snippet": "Read more about why the Ohio State Lima campus can be the perfect place to discover your path, earn your degree and get the true Ohio State experience.",
+      "htmlSnippet": "Read more about why the \u003cb\u003eOhio State\u003c/b\u003e Lima campus can be the perfect place to discover your path, earn your degree and get the true \u003cb\u003eOhio State\u003c/b\u003e experience.",
+      "cacheId": "1qBbqTgiXRIJ",
+      "formattedUrl": "https://lima.osu.edu/",
+      "htmlFormattedUrl": "https://lima.osu.edu/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2Al6HuT48V6IlrFWdJswS4--l-YbKZ1pfGhjGCq6RJ5cHsngvzQ7uuc",
+            "width": "310",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "owner": "University Marketing",
+            "og:image": "https://lima.osu.edu/assets/lima/social_regional-lima.jpg",
+            "copyright": "The Ohio State University",
+            "og:type": "website",
+            "og:image:width": "764",
+            "twitter:title": "Home",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Ohio State Lima",
+            "author": "© 2021 The Ohio State University at Lima",
+            "og:title": "Home",
+            "og:image:height": "400",
+            "og:description": "Read more about why the Ohio State Lima campus can be the perfect place to discover your path, earn your degree and get the true Ohio State experience.",
+            "twitter:creator": "@OhioState",
+            "twitter:image": "https://lima.osu.edu/assets/lima/social_regional-lima.jpg",
+            "twitter:site": "@OhioState",
+            "viewport": "width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1",
+            "twitter:description": "Read more about why the Ohio State Lima campus can be the perfect place to discover your path, earn your degree and get the true Ohio State experience.",
+            "og:url": "https://lima.osu.edu/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lima.osu.edu/assets/lima/social_regional-lima.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

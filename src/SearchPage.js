@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import './SearchPage.css';
 import { useStateValue } from './DataLayer';
 import useGoogleSearch from './useGoogleSearch';
-import Response from './response';
+// import Response from './response';
 // import { data } from 'jquery';
 
 function SearchPage() {

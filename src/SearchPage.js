@@ -13,31 +13,44 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Link } from 'react-router-dom';
 import './SearchPage.css';
 import { useStateValue } from './DataLayer';
-import useGoogleSearch from './useGoogleSearch';
-// import Response from './response';
+import useGoogleSearch from './googleSearch';
+import Response from './response';
+import badInput from './badInputResponse';
 // import { data } from 'jquery';
 
 function SearchPage() {
     const [{term}, dispatch] = useStateValue();
+    let start = 1;
     const {data} = useGoogleSearch(term);
+    // const data = badInput;
     // const data = Response;
+
     let listItems;
     let info;
     let item;
     console.log ("data: " +data)
+
+    // when data is not null
     if (data) {
-        info = <p className="info">About {data.searchInformation.formattedTotalResults} results ({data.searchInformation.formattedSearchTime} seconds)</p>
-        listItems = data.items;
-        let i=0;
-        item = listItems.map((item) => 
+        if (data.searchInformation.totalResults != 0) {
+            listItems = data.items;
+            let i=0;
+            info = <p className="info">About {data.searchInformation.formattedTotalResults} results ({data.searchInformation.formattedSearchTime} seconds)</p>
+            item = listItems.map((item) => 
                     <div key = {i++} className="itemblock">
                         <a href ={item.formattedUrl}>{item.formattedUrl}</a>
                         <h3><a className = "links" href = {item.formattedUrl}>{item.title}</a></h3>
                         <p className="snippet">{item.snippet}</p>
-                    </div>)}
-    
-    console.log(data);
-    console.log(listItems);
+                    </div>)
+        } else { // when search shows 0 results, print a message
+            item =<div className="undefined">
+                     <p>Your search - <strong>{term}</strong> - did not match any documents.</p>
+                     <p>Suggestions:</p>
+                     <p>Make sure all words are spelled correctly.<br/>Try different keywords.<br/>Try more general keywords.</p>
+                 </div>
+            }
+        }
+
     return (
         <div >
             <div className = "header">

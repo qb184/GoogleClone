@@ -2,6 +2,10 @@
   font-family: Roboto, arial, sans-serif;
   font-size: 14px;
 }
+.container {
+  position: relative;
+  min-height: 100vh;
+}
 .logo {
   width: 70px;
 }
@@ -70,11 +74,17 @@ a {
   text-decoration: none;
   color: black;
 }
-.display-options div {
+
+.display-options a {
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
+
+.display-options a > * {
+  margin-right: 5px;
+}
+
 .link-option {
   margin-left: 5px;
 }
@@ -98,6 +108,7 @@ h3 {
 .body {
   margin-left: 200px;
   margin-right: 150px;
+  padding-bottom: 80px;
 }
 .snippet {
   margin-top: 6px;

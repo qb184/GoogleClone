@@ -16,6 +16,7 @@ import { useStateValue } from './DataLayer';
 import useGoogleSearch from './googleSearch';
 import Response from './response';
 import badInput from './badInputResponse';
+import Footer from './components/Footer/Footer';
 // import { data } from 'jquery';
 
 function SearchPage() {
@@ -52,13 +53,13 @@ function SearchPage() {
         }
 
     return (
-        <div >
+        <div className="container">
             <div className = "header">
                 <div className="header-left">
                     <a href = "/" >
                         <img style ={{width:"100px",margin:"15px 30px 5px 10px"}}src = {logo} alt ="google logo"></img>
                     </a>
-                    <Search className="search-bar" btnHidden/>
+                    <Search className="search-bar" btnHidden value={term} placeholder={term}/>
                 </div>
                 
                 <div className="header-right">
@@ -68,30 +69,12 @@ function SearchPage() {
                 </div>                
             </div>
             <div className="display-options">
-                <div>
-                    <SearchIcon/>
-                    <Link to='/all' className="link-option">All</Link>
-                </div>
-                <div>
-                    <LocalOfferIcon/>
-                    <Link to='/shopping' className="link-option">Shopping</Link>
-                </div>
-                <div>
-                    <CropOriginalIcon/>
-                    <Link to='/image' className="link-option">Image</Link>
-                </div>
-                <div>
-                    <img src={news} style={{width:'20px'}} alt=""></img>
-                    <Link to='/news' className="link-option">News</Link>
-                </div>
-                <div>
-                    <PlayCircleOutlineIcon/>
-                    <Link to='/video' className="link-option">Video</Link>
-                </div>
-                <div>
-                    <MoreVertIcon/>
-                    <Link to='/more' className="link-option">More</Link>
-                </div>
+                <Link to='/all' className="link-option"><SearchIcon/>All</Link>
+                <Link to='/shopping' className="link-option"><LocalOfferIcon/>Shopping</Link>
+                <Link to='/image' className="link-option"><CropOriginalIcon/>Image</Link>
+                <Link to='/news' className="link-option"><img src={news} style={{width:'20px'}} alt=""></img>News</Link>
+                <Link to='/video' className="link-option"><PlayCircleOutlineIcon/>Video</Link>
+                <Link to='/more' className="link-option"><MoreVertIcon/>More</Link>
             </div>
             <br/>
             <br/>
@@ -101,7 +84,7 @@ function SearchPage() {
                 {info}
                 {item}
             </div>
-            
+            <Footer/>
         </div>
     )
 }
